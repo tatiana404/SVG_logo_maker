@@ -33,8 +33,12 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ## Mock-Up
 
 Images:
+<img width="714" alt="jest test image" src="https://github.com/tatiana404/SVG_logo_maker/assets/65060199/1dc05f4b-fd48-479f-899b-b7527b99c301">
+<img width="317" alt="triangle" src="https://github.com/tatiana404/SVG_logo_maker/assets/65060199/8b72ef36-2bae-4f2e-a090-967093745f64">
+<img width="323" alt="square" src="https://github.com/tatiana404/SVG_logo_maker/assets/65060199/a68612ef-80b2-471f-813e-f675cbfb1c24">
+<img width="368" alt="circle" src="https://github.com/tatiana404/SVG_logo_maker/assets/65060199/11311bed-5533-4c05-b691-66821b485242">
 
-recording: 
+recording: https://drive.google.com/file/d/11s-G1joNobI0OpnmOS4Tz3L-n9OcZrJf/view
 
 
 ## Contributing
