@@ -32,13 +32,28 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 ## Mock-Up
 
-The following image shows a mock-up of the generated SVG given the following input entered by the user: `SVG` for the text, `white` for the text color, `circle` from the list of shapes, and `green` for the shape color. Note that this is just an image of the output SVG and not the SVG file itself:
+Images:
 
-![Image showing a green circle with white text that reads "SVG.".](./Images/10-oop-homework-demo.png)
+recording: 
 
 
+## Contributing
+
+For contribution, create a pull request. Then fork the repo, create your brunch, add your changes, commit your changes, push your changes to the main, create a pull request.
+
+
+## Tests
+
+To test this application open Command prompt, answer all the question, see the result in command prompt
+
+
+## Questions
+
+For further questions you may contact me via email: tatiana.peutina@gmail.com
+
+
+## License MIT 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-## License MIT

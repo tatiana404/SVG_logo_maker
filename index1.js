@@ -1,4 +1,4 @@
-// Required libraries
+
 const readline = require('readline');
 const fs = require('fs');
 const inquirer = require("inquirer");
@@ -7,7 +7,7 @@ const { Triangle, Square, Circle } = require("./lib/shapes");
 
 
 
-// Function to create the SVG logo
+
 function createSVGLogo(color, shape, text) {
   let shapeChoice;
 
@@ -34,7 +34,7 @@ function createSVGLogo(color, shape, text) {
   return svgContent;
 }
 
-// Function to save the SVG logo to a file
+
 function saveSVGToFile(svgContent, filename) {
   fs.writeFile(filename, svgContent, (err) => {
     if (err) {
@@ -45,13 +45,13 @@ function saveSVGToFile(svgContent, filename) {
   });
 }
 
-// Create readline interface for user input
+
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
 
-// Prompt user for input
+
 rl.question('Enter the color for the logo: ', (color) => {
   rl.question('Enter the shape for the logo (e.g., "circle", "triangle","square"): ', (shape) => {
     rl.question('Enter the text for the logo: ', (text) => {
@@ -60,14 +60,14 @@ rl.question('Enter the color for the logo: ', (color) => {
         return;
       }
 
-      rl.question('Enter the filename for the SVG file (e.g., "logo.svg"): ', (filename) => {
-        // Generate the SVG logo
+      rl.question('Enter the name for the SVG file: ', (filename) => {
+   
         let svgLogo = createSVGLogo(color, shape, text);
 
-        // Save the SVG logo to a file
+     
         saveSVGToFile(svgLogo, filename);
 
-        // Close the readline interface
+
         rl.close();
       });
     });
